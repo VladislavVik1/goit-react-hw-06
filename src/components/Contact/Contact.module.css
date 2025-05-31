@@ -1,0 +1,33 @@
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .text {
+    font-weight: 500;
+    margin-right: 12px;
+  }
+  
+  .number {
+    font-weight: 400;
+    color: #555;
+  }
+  
+  .button {
+    padding: 6px 12px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    background-color: #e74c3c;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #c0392b;
+  }
+  
